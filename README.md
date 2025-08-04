@@ -30,5 +30,3 @@ Install dependencies:
 pip install -r requirements.txt
 #Use this command to run the app on a localhost server
 streamlit run app.py
-
-Streamlit Hosted Link- 
