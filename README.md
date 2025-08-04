@@ -22,11 +22,20 @@ SCT_ML_02/
 │ └── Mall_Customers.csv
 ├── requirements.txt # Required Python packages
 └── README.md # You're reading it!
+### 📦 Clone the Repository
 
+```bash
+git clone https://github.com/Anindya-Dev/SCT_ML_03.git
+cd SCT_ML_03
 
+### ▶️ How to Run Locally
 
-▶️ How to Run Locally
-Install dependencies:
+To run the Streamlit app on your local machine:
+
+1. **Install Dependencies**  
+Make sure you have Python installed. Then, open a terminal in the project directory and run:
+
+```bash
 pip install -r requirements.txt
-#Use this command to run the app on a localhost server
+
 streamlit run app.py
