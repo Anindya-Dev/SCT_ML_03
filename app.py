@@ -14,7 +14,7 @@ with open("svm_model.pkl", "rb") as f:
 # Load MobileNetV2 for feature extraction
 cnn_model = MobileNetV2(weights='imagenet', include_top=False, pooling='avg')
 
-st.title("🐾 Cat vs Dog Classifier (SVM + MobileNetV2)")
+st.title("🐾 Cat vs Dog Classifier (SVM)")
 st.markdown("Upload an image of a **Cat** or **Dog** to classify.")
 
 uploaded_file = st.file_uploader("Upload an image", type=["jpg", "jpeg", "png"])
